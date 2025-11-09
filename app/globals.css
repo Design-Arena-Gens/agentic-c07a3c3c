@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b0f19;color:#e7e9ee}
+.container{max-width:1200px;margin:0 auto;padding:16px}
+.header{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input,select,button{background:#151b2b;color:#e7e9ee;border:1px solid #28324a;border-radius:8px;padding:8px 10px}
+button{cursor:pointer}
+.card{background:#0f1524;border:1px solid #1f2740;border-radius:12px;padding:12px}
+.grid{display:grid;grid-template-columns:1fr 340px;gap:12px}
+@media (max-width: 1000px){.grid{grid-template-columns:1fr}}
+.badge{padding:2px 8px;border-radius:999px;border:1px solid #2a3553;background:#12192b;color:#9fb1ff;font-size:12px}
+.signal{display:flex;gap:8px;align-items:center}
+.signal.up{color:#79e37d}
+.signal.down{color:#ff8f8f}
+hr{border:0;border-top:1px solid #1f2740;margin:12px 0}
+.small{font-size:12px;color:#9aa3b2}
+.level{display:flex;justify-content:space-between}
